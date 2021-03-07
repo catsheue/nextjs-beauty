@@ -11,11 +11,7 @@ export function Navbar() {
             <a>Home</a>
           </Link>
         </li>
-        <li className={styles.navItem}>
-          <Link href="/about">
-            <a>About Us</a>
-          </Link>
-        </li>
+
         <li className={styles.navItem}>
           <Link href="/clinics">
             <a>診所列表</a>
