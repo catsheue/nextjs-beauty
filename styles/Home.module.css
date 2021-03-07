@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -35,6 +36,7 @@
   align-items: center;
 }
 
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -45,12 +47,29 @@
 .title a:active {
   text-decoration: underline;
 }
+.titleContainer {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 8px 9px 0 0 #7fffd46e;
+  width: 95%;
+  margin: 0 auto;
+  height: 9rem;
+}
 
 .title {
-  margin: 0;
+  position: absolute;
+  top: 2rem;
+  left: 2.7rem;
   line-height: 1.15;
   font-size: 4rem;
+  color: #fff;
+  font-family: 'Noto Serif TC', serif;
+  background: -webkit-linear-gradient(135deg, #a5ffe6,#eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
+
 
 .title,
 .description {
