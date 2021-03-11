@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.titleContainer}>
-          <Image src="/images/mainvisual.webp" width="1920px" height="300px" />
+          <Image src="/images/beauty-main.webp" width="1920px" height="300px" />
           <h1 className={styles.title}>醫美診所特搜</h1>
         </div>
 
