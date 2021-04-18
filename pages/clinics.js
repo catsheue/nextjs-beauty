@@ -26,13 +26,13 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Navbar />
-          <div>
-            {clinicList.map(({ name, district, services, address }) => {
+          <div className={styles.rightBody}>
+            {clinicList.map(({ name, district, services, address, link }) => {
               return (
-                <div>
-                  <h2>{name}</h2>
+                <a className={styles.clinicItem} href={link} target="_blank">
+                  <h2 className={styles.clinicTitle}>{name}</h2>
                   <p>{address}</p>
-                </div>
+                </a>
               );
             })}
           </div>

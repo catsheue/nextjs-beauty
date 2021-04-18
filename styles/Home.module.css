@@ -89,7 +89,21 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+.clinicItem {
+  padding: 2rem;
+  line-height: 1.5;
+  color: #1e1e1e;
+}
+.clinicItem:hover {
+  background: #eeeeee;
+}
+.clinicTitle {
+  color: cadetblue;
+}
+.rightBody {
 
+  padding-left: 2rem;
+}
 .grid {
   width: 100%;
   display: flex;
