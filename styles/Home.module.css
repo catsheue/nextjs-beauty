@@ -104,6 +104,12 @@
 
   padding-left: 2rem;
 }
+.servicesType {
+  margin: 2rem;
+}
+.servicesType h2 {
+  color: teal;
+}
 .grid {
   width: 100%;
   display: flex;

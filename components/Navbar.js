@@ -17,6 +17,11 @@ export function Navbar() {
             <a>診所列表</a>
           </Link>
         </li>
+        <li className={styles.navItem}>
+          <Link href="/services">
+            <a>醫美類型</a>
+          </Link>
+        </li>
       </ul>
     </nav>
   );
